@@ -33,7 +33,7 @@ function App() {
   const scrollToPrompt = (index) => {
     const messages = document.querySelectorAll('[data-message-author-role="user"]');
     const el = messages[index];
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   };
 
   const handleMouseDown = (e) => {
