@@ -77,7 +77,7 @@ function App() {
         position: 'fixed',
         zIndex: 9999,
       }}
-      className={` ${isDark ? 'dark' : ''}  transition-shadow duration-300 ${isDragging ? 'shadow-lg' : 'shadow-md'} font-sans border rounded-2xl overflow-hidden w-80 flex flex-col ${isDark ? 'bg-[#212121] border-white/10 text-white' : 'bg-white/95 border-gray-200 text-gray-900'} backdrop-blur-md`}
+      className={` ${isDark ? 'dark' : ''}  transition-shadow duration-300 ${isDragging ? 'shadow-lg' : 'shadow-md'} font-sans border rounded-2xl overflow-hidden w-60 flex flex-col ${isDark ? 'bg-[#212121] border-white/10 text-white' : 'bg-white/95 border-gray-200 text-gray-900'} backdrop-blur-md`}
     >
       <div
         onMouseDown={handleMouseDown}
