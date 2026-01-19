@@ -1,4 +1,5 @@
-![Logo](/public/logo.png)
+[chat-gpt-ext.webm](https://github.com/user-attachments/assets/1a07ae5a-5724-4a1b-8c29-64b46d483b3f)
+
 
 ## Quick Start
 
