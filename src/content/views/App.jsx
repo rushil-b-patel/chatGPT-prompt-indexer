@@ -2,8 +2,8 @@ import { useEffect, useState, useRef } from 'react';
 
 function App() {
   const [prompts, setPrompts] = useState([]);
-  const [isMinimized, setIsMinimized] = useState(false);
-  const [position, setPosition] = useState({ x: 20, y: 100 });
+  const [isMinimized, setIsMinimized] = useState(true);
+  const [position, setPosition] = useState({ x: 1570, y: 50 });
   const [isDragging, setIsDragging] = useState(false);
   const [isDark, setIsDark] = useState(false);
   const dragStart = useRef({ x: 0, y: 0 });
